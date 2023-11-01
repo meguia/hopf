@@ -1,2 +1,17 @@
 # hopf
 Hopf fibration made in Blender with Geonodes
+
+This is a model of the Stereographic Projection in three dimensional space of the Hopf Fibration, that describes a 3-sphere in four-dimensional space in terms of circles. Each circle is a fiber that maps to a distinct point in the ordinary 2-sphere.
+
+This model make use of the new features of the geometry nodes in Blender such as repeat zones, that at supported in version 4.0 and above. At this moment Blender 4.0 it is still in beta, then you must "go experimental" and download a daily build.
+
+The control parameters of the Model are the inputs in the modifier properties of the geometry nodes:
+
+- elevation: elevation in the 2-sphere. It goes from 0 (north pole) to 1 (south pole). The equator correspond to 0.5
+- ntorus: number of paralel circles in the 2-sphere that correspond to the number of tori in the 3-sphere
+- resolution: number of points for a given elevation in the 2-sphere, that corresponds to the number of rings per torus in the 3 sphere
+- translation: the offset in the x coordinate of the 2-sphere for the sake of clarity of visualization
+- Rotation: euler rotation of the 2-sphere. this can is keyframed with a basic animation
+- angle: the maximum azimut angle in the 2-sphere. It can be useful to see how the tori are formed.
+
+  
