@@ -16,4 +16,6 @@ The control parameters of the Model are the inputs in the modifier properties of
 - Rotation: euler rotation of the 2-sphere. this can is keyframed with a basic animation
 - angle: the maximum azimut angle in the 2-sphere. It can be useful to see how the tori are formed.
 
+The Hopf Fibration can be visualized in a VR session (enabling the add-on 3d view: VR Scene Inspection) and/or explored in an interactive way through a MIDI Control Surface using the add-on [AddRoutes](http://www.jpfep.net/pages/addroutes/). In this last case the Blender file to be loaded is *Hopf_fibration_MIDI.blend*
+
   
